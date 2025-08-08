@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
             darkTheme: darkTheme,
             themeMode: context.watch<ThemeCubit>().state,
             debugShowCheckedModeBanner: false,
-            title: 'Wahaj app',
+            title: 'DoneX',
             routerConfig: AppRouter.router,
           ),
         );
