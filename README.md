@@ -60,3 +60,10 @@
 ```bash
 flutter pub get
 flutter run
+```
+
+---
+
+## 👨‍💻 Developer
+
+Built with ❤️ by [@muathCS](https://github.com/muathCS)
