@@ -1,16 +1,62 @@
-# wahaj_app
+# 📱 DoneX - Task Management App
 
-A new Flutter project.
+**DoneX** is a productivity app designed to help you organize your daily tasks in a simple and effective way. It offers a modern, dark-themed user interface with full Arabic (RTL) support, and allows you to manage tasks across multiple independent workspaces.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧠 Key Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🏠 Home Screen
+- Displays today's date and current week.
+- Horizontal calendar for easy navigation between days.
+- Sections for pending and completed tasks.
+- Smooth switching between task categories.
+- Task completion counter to track progress.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✅ Task Management
+- Add main tasks with customizable start time.
+- Support for nested subtasks under each main task.
+- Detailed task view with interactive subtask checkboxes.
+- Edit or delete tasks with ease.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🗂️ Workspaces
+- Create independent workspaces (e.g., "Study Workspace", "Project Workspace").
+- Customize workspace names.
+- Easily edit or remove any workspace.
+
+### ⚙️ Settings
+- Enable dark mode for a better visual experience.
+- Enable Hijri calendar support.
+- Switch between multiple color themes.
+- Reset the app (clears all saved tasks).
+
+### ⚠️ Smart Alerts
+- Confirmation dialog before bulk deletion.
+- Clear "Cancel" and "Confirm Deletion" actions.
+
+---
+
+## 📷 Screenshots
+
+<!-- 
+| Home Screen | Add Task | Task View |
+|-------------|----------|-----------|
+| ![Home](assets/screenshots/home.png) | ![Add Task](assets/screenshots/add_task.png) | ![Task View](assets/screenshots/view_task.png) |
+-->
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** 💙  
+- State Management: Bloc / Cubit  
+- Full RTL support (Arabic language)  
+- Responsive UI with `flutter_screenutil`  
+
+---
+
+## 🚀 Getting Started
+
+```bash
+flutter pub get
+flutter run
